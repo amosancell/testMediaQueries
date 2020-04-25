@@ -1,0 +1,58 @@
+
+
+@media only screen and (min-width:400px) and (max-width:900px) {
+    body {
+        background-color: #f6d198;
+    }
+    #shakespeare {
+        float:left;
+        padding-right: 10px;
+    }
+    #topnav {
+        background-color: #f4a548;
+    }
+    .navlink {
+        text-decoration: none;
+        font-weight: bold;
+        color:#862a5c;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navlink:hover {
+        background-color: #7ebdb4;
+    }
+}
+@media only screen and (min-width:900px) {
+    body {
+        background-color: #dae1e7;
+    }
+    #shakespeare {
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #topnav {
+        background-color: #00909e;
+    }
+    .navlink {
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #142850;
+    }
+    .navlink:hover {
+        background-color: #dae1e7;
+    }
+}
+
+@media only print {
+    #topnav {
+        display:none;
+    }
+    #shakespeare {
+        display:block;
+        margin-left: auto;
+        margin-right:auto;
+    }
+}
